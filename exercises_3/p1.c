@@ -5,7 +5,7 @@
 #include <time.h>
 
 #define P 8  // Adjust based on p=2^k
-#define D 3  // Adjust based on d=2^k
+#define D 3  // Depth
 
 void swap(int64_t *a, int64_t *b) {
     int64_t temp = *a;
